@@ -23,3 +23,5 @@ for pdf in pdfs:
     merger.append(pdf)
     
 merger.write(os.path.join(location, merged_file_name))
+
+print(f"\n{merged_file_name} created at {location}.")
